@@ -1,0 +1,40 @@
+main{
+display: flex;
+flex-direction: column;
+min-height: 569px;
+flex-grow: 1
+}
+#address{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+#address h1{
+font-size: 100px;
+color:orange;
+margin-bottom: 15px;
+}
+#address p{
+    font-weight:bolder;
+}
+#images{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   /* height: 260px; */
+   flex-wrap: wrap;
+    justify-content:space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+figure{
+    width: 200px;
+    height: 270px;
+}
+figure img{
+    width: 150px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}

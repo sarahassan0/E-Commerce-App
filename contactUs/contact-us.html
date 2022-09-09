@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" form-field="IE=edge">
+        <meta name="viewport" form-field="width=device-width,
+            initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/contact-us.css">
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <form action="thankPage.html" target="_blank" method="post">
+                    <h1>Contact Us</h1>
+                    <div class="form-field">
+                        <label for="name">Full Name *</label>
+                        <input id="name" type="text" name="name"
+                            placeholder="Enter Your Name" required " />
+                    </div>
+                    <span id="nameSpan" class=" msg"></span>
+                    <div class="form-field">
+                        <label for="email">Email *</label>
+                        <input id="email" type="email" name="email"
+                            placeholder="Enter Your Email" required />
+                    </div>
+                    <span id="emailSpan" class="msg"></span>
+
+                    <div class="form-field">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone"
+                            placeholder="Enter Phone Number" required />
+                    </div>
+                    <span id="phoneSpan" class="msg"></span>
+
+                    <div class="form-field textarea">
+                        <label for="message">Message</label>
+                        <textarea type="text" id="message" name="message"
+                            placeholder="What's on your mind?"
+                            required></textarea>
+                    </div>
+                    <div class="btn-field">
+                        <button type="submit" id="submit"> Submit
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <script src="contact-us.js"></script>
+    </body>
+
+</html>

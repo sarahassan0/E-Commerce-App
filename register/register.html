@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" form-field="IE=edge" />
+        <meta
+            name="viewport"
+            form-field="width=device-width,
+            initial-scale=1.0"
+            />
+        <title>Document</title>
+        <link rel="stylesheet" href="../css/register.css" />
+    </head>
+
+    <body>
+        <main>
+            <div class="container">
+                <form action="../home/Home.html">
+                    <div class="bag">
+                        <img src="5.png" />
+                    </div>
+                    <div class="form-field">
+                        <label for="name">Full Name *</label>
+                        <input id="name" type="text" name="name"
+                            placeholder="Enter Your Name" required " />
+                    </div>
+                    <span id="nameSpan" class="msg"></span>
+                    <div class="form-field">
+                        <label for="email">Email *</label>
+                        <input
+                            id="email"
+                            type="email"
+                            name="email"
+                            placeholder="Enter Your Email"
+                            required
+                            />
+                    </div>
+                    <span id="emailSpan" class="msg"></span>
+
+                    <div class="form-field">
+                        <label for="pass">password *</label>
+                        <input
+                            type="password"
+                            id="pass"
+                            name="password"
+                            placeholder="Enter your password"
+                            required
+                            />
+                    </div>
+                    <span id="passSpan" class="msg"></span>
+
+                    <div class="form-field">
+                        <label for="pass">confirm password *</label>
+                        <input
+                            type="password"
+                            id="cPass"
+                            name="password"
+                            placeholder="Re-Enter the password"
+                            required
+                            />
+                    </div>
+                    <span id="cPassSpan" class="msg"></span>
+                    <div class="check">
+                        <input class="form-check-input" type="checkbox" value=""
+                          id="loginCheck" />
+        
+                        <label class="Remember" for="loginCheck"> Remember me</label>
+                      </div>
+        
+
+                    <div class="btn-field">
+                        <button type="submit" id="submit">sign up</button>
+                    </div>
+                    <div class="member">
+                        <p>Already a Member?</p>
+                        <a href="../login/login.html">login</a>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <script src="register.js"></script>
+    </body>
+</html>
