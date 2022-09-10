@@ -3,25 +3,24 @@ function Product(id, name, price, imgSrc, categories) {
     this.name = name;
     this.price = price;
     this.imgSrc = imgSrc;
-    this.categories = categories;
+    this.categories = categories
 }
 const prods = [];
 let shownProds = []
 let cart = []
-let pImgs = ['a', 'p', 'a', 'a', 'g', 'h']
+let imgName = ['Home', 'Laptop', 'Mobile']
 const categories = ['home', 'laptop', 'mobiles']
 
 function generateProds() {
-    // let productIndex = 0;
-    const products = 6;
+    const products = 18;
 
 
     for (let i = 0; i < products; i++) {
         prods.push(
             new Product(
                 `${i}`,
-                `${pImgs[i]}`,
-                eval(`${i}* 6+50`) + '$',
+                `${imgName[i % imgName.length]}`,
+                '$' + eval(`${i}*11 +100`),
                 `./Imgs/p${i + 1}.jpg`,
                 categories[i % categories.length]
             )
@@ -42,7 +41,9 @@ function showProducts() {
         prodDiv.id = `div_${product.id}`;
         prodDiv.className = "prodDiv";
         prodDiv.innerHTML = `
+        <div class="imgDiv">
             <img class="productImg" src="${product.imgSrc}">
+            </div>
             <div class="prodInfo">
             <span class="prodName">
             ${product.name}
@@ -53,7 +54,9 @@ function showProducts() {
             </div>
             <button id="btn_${product.id}" class="addCart" onclick="addToCart(this.id)">Add to Cart</button>
         `;
+
     });
+
 }
 
 /////////////////////////////////// customistion
