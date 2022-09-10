@@ -99,3 +99,7 @@ footer {
     justify-items: center center;
     font-size: .9rem;
 }
+
+.active {
+    border-bottom: 2px solid white;
+}

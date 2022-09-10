@@ -50,6 +50,7 @@ phoneEle.addEventListener("keyup", function () {
 })
 
 document.forms[0].addEventListener("submit", function () {
+    window.open('thankPage.html', "_self")
     nameEle.value = ""
     emailEle.value = ""
     phoneEle.value = ""
