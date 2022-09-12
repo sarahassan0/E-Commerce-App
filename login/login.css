@@ -1,128 +1,100 @@
-.login-logo {
-  text-align: center;
-  margin-bottom: 30px;
-  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.login-card {
-  display: flex;
-  justify-items: center;
-  align-items: center;
-  justify-content: center;
-  height: 700px;
+section {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 40px;
+    align-content: center;
 }
 
-.login.container {
-  max-width: 500px;
-  background-color: #fff;
-  box-shadow: 0px 1px 36px -7px rgba(0, 0, 0, 0.38);
-  -webkit-box-shadow: 0px 1px 36px -7px rgba(0, 0, 0, 0.38);
-  -moz-box-shadow: 0px 1px 36px -7px rgba(0, 0, 0, 0.38);
-  padding: 40px;
-  border-radius: 30px;
-  height: 500px;
-}
-
-.cart-logo {
-  padding: 8px;
-}
-
-.btn-link {
-  padding-top: 0;
-  border-top: 0;
+#container {
+    display: flex;
+    justify-content: center;
+    height: 520px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 450px;
+    box-shadow: 0px 1px 36px -7px rgba(0, 0, 0, 0.38);
+    border-radius: 30px;
 }
 
 form {
-  text-align: center;
+    text-align: center;
+    padding: 30px
 }
 
-.email .content {
-  width: 350px;
-  height: 30px;
-  border-radius: 7px;
-
+.input {
+    width: 380px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    margin: 0;
+    margin-bottom: 15px;
 }
 
-.email .content .hoverOutline:hover {
-  outline: 2px solid rgb(23, 222, 244);
+.input:hover {
+    border: none;
+    outline: 2px solid rgb(23, 222, 244);
 }
 
-.email .text {
-  margin-right: 320px;
+.label {
+    margin-right: 320px;
 
 }
 
 .email {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .bag {
-  display: flex;
-  margin-left: 35%;
-
+    display: flex;
+    justify-content: center;
 }
 
 .bag img {
-  width: 150px;
-  height: 150px;
-}
-
-.password .pass {
-  width: 350px;
-  height: 30px;
-  border-radius: 7px;
-  margin-bottom: 15px;
-
-
-}
-
-.password .labe {
-  margin-right: 300px;
+    width: 150px;
+    height: 150px;
 }
 
 .check {
-  display: flex;
-  flex-direction: row;
-  margin-right: 250px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
 }
 
-.forget .btn {
-  
-  margin-left: 350px;
-  text-decoration: none;
-
+.forget {
+    text-decoration: none;
+    margin-top: 10px;
 }
 
-.text-center {
-  margin-top: 15px;
-}
 
 .sign {
-  margin-top: 5px;
+    margin-top: 5px;
 }
 
 .sign .btn3 {
-  width: 365px;
-  height: 35px;
-  border-radius: 7px;
-  color: white;
-  background-color: rgb(2, 2, 58);
+    width: 365px;
+    height: 35px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(2, 2, 58);
 }
 
-.text-center a {
-  text-decoration: none;
+#registerBtn {
+    margin-top: 15px;
 }
 
 input {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 span.msg {
-  color: red;
-  font-size: 15px;
-  padding-bottom: 0;
-  margin-bottom: 10px;
+    color: red;
+    font-size: 15px;
 }
