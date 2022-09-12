@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins",
+        sans-serif;
+    background-color: #e6e6e6;
+}
+
+.container {
+    align-self: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    height: 650px;
+    background-color: #fff;
+    border-radius: 40px;
+    overflow: hidden;
+    padding: 62px 55px 90px 55px;
+    margin: 45px 0;
+    margin-top: 12em;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-field {
+    width: 100%;
+    border: 1px solid #e6e6e6;
+    background-color: #f7f7f7;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+label {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 12px;
+    color: #333333;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #555555;
+    line-height: 17px;
+    padding-right: 15px;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+    color: #adadad;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+#message {
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    height: 55px;
+}
+
+textarea {
+    background-color: #fff;
+    height: 80px;
+
+}
+
+.btn-field {
+    width: 100%;
+}
+
+button {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 50px;
+    background-color: #333333;
+    border-style: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    transition: all 0.6s ease-in-out;
+}
+
+button:hover {
+    background-color: #f96a05;
+    cursor: pointer;
+}
+
+span.msg {
+    color: red;
+    font-size: 13px;
+    padding-left: 13px;
+    padding-bottom: 0;
+    margin-bottom: 8px;
+}
