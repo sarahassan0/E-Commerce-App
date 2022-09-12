@@ -33,7 +33,7 @@ function generateProds() {
 
 
 function showProducts() {
-    const prodsContainer = document.querySelector("main");
+    const prodsContainer = document.querySelector("#prodsContainer");
     prodsContainer.innerHTML = "";
     shownProds.forEach(product => {
         let prodDiv = document.createElement("div");
