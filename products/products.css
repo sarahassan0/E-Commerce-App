@@ -254,7 +254,7 @@ main#homeMain {
 }
 
 #p2 {
-    font-size: 35px;
+    font-size: 40px;
     color: #f96a05;
     font-weight: bolder;
 }
@@ -263,28 +263,16 @@ main#homeMain {
     font-size: 20px;
     font-weight: bold;
     color: gray;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
-#lets-a {
-    width: 100%;
-    height: 100%;
-    color: #f96a05;
-    text-decoration: none;
-}
-
-#lets-a:hover {
-    color: white;
-    background-color: #f96a05;
-
-}
 
 #lets-btn {
 
     color: #f96a05;
     font-size: 18px;
-    height: 30px;
-    width: 150px;
+    height: 35px;
+    width: 170px;
     background-color: white;
     border: 2px solid #f96a05;
     transition: 0.3s;
