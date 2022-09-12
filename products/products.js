@@ -59,8 +59,6 @@ function showProducts() {
 
 }
 
-/////////////////////////////////// customistion
-
 document.querySelector("#all").addEventListener("click", () => {
     shownProds = prods;
     showProducts();
@@ -104,6 +102,5 @@ function genAndShowAllProds() {
     showProducts();
 
 }
-
 
 window.addEventListener("load", () => genAndShowAllProds());
