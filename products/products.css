@@ -206,7 +206,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: 100%vh;
+    height: 100vh;
     flex-grow: 1;
     padding: 120px;
     justify-content: center;
