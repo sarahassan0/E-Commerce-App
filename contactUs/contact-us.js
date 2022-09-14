@@ -23,7 +23,7 @@ nameEle.addEventListener("keyup", function () {
 
 emailEle.addEventListener("keyup", function () {
     var validationMsg = document.querySelector('#emailSpan')
-    rejEmail = /^[a-zA-z0-9]{3,}@(gmail|.yahoo|.outlook).com$/;
+    rejEmail = /^[a-zA-z0-9]{3,}@(gmail|yahoo|outlook).com$/;
     var test = rejEmail.test(emailEle.value)
     if (test == true) {
         validationMsg.innerHTML = ""
@@ -55,7 +55,6 @@ document.forms[0].addEventListener("submit", function (e) {
     if (emailCheck != emailEle.value) {
 
         alert("You don't have account!, please sign up")
-        btn.disabled = true;
         e.preventDefault();
 
     }

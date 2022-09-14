@@ -63,17 +63,12 @@ cPassEle.addEventListener("keyup", function () {
 
 document.forms[0].addEventListener("submit", function () {
 
-localStorage.setItem("email", emailEle.value);
-localStorage.setItem("password", passEle.value)
+    localStorage.setItem("email", emailEle.value);
+    localStorage.setItem("password", passEle.value)
 
-emailEle.value = ""
-phoneEle.value = ""
-msgEle.value = ""
-nameEle.value = ""
-
-
-    
-   
-   
+    emailEle.value = ""
+    phoneEle.value = ""
+    msgEle.value = ""
+    nameEle.value = ""
 
 })

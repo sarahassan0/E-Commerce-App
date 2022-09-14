@@ -75,8 +75,8 @@ document.querySelectorAll(".ctg").forEach((btn) =>
 function addToCart(btnId) {
 
     const productId = btnId.split("_")[1];
-    const foundProdInCart = cart.find((product) => product.id === productId);
-    if (!foundProdInCart) {
+    const ProdInCart = cart.find((product) => product.id === productId);
+    if (!ProdInCart) {
         const prod = prods.find((product) => product.id === productId);
         cart.push(prod);
 
