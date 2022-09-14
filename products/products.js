@@ -42,7 +42,7 @@ function showProducts() {
         prodDiv.className = "prodDiv";
         prodDiv.innerHTML = `
         <div class="imgDiv">
-            <img src="${product.imgSrc}" class="productImg">
+            <img class="productImg" src="${product.imgSrc}">
             </div>
             <div class="prodInfo">
             <span class="prodName">
